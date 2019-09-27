@@ -1,7 +1,7 @@
 /*
  TODOS
  */
-package modelos;
+package P01Mod3Ventas;
 
 import P01Mod3Ventas.Modificar;
 import P01Mod3Ventas.Listar;

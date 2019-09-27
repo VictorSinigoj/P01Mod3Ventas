@@ -18,7 +18,7 @@ public class Modificar {
         System.out.println("Modificar");
         Venta venta=new Venta("Codigo", 8, 2);
         ColeccionVentas instance=new ColeccionVentas();
-        instance.Modificar(venta);
+        instance.Agregar(venta);
         boolean esperado=true;  
         venta=new Venta("Codigo", 8, 265);
         boolean obtenido=instance.Modificar(venta);
